@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container{
+  margin: 2em;
+}
+/* On CLick */
+.onClick,.doubleClick,.mouseOver,.onKeyPress,.keyDown,.keyUp{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 2em;
+  margin-bottom: 20px;
+}
+.onClickBtn,.doubleClickBtn{
+  display: inline-block;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  background: blue;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-size: 20px;
+  box-shadow: 1px 2px 10px blue;
+}
+.onClickPra,.doubleClickPra,.keyDownpra,.keyUpPra{
+  font-size: 20px;
+  padding: 10px 0;
+  transition: .5s;
+}
+
+.mouseOverBox{
+  height: 100px;
+  width: 100px;
+  box-shadow: 0 0 10px blue;
+  margin-top: 20px;
+}
+#text,#keyDownInput,#keyUpInput{
+  padding: 12px 4px;
+  width: 30%;
+  margin-top: 20px;
+}
